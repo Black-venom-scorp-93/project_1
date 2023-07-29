@@ -12,13 +12,7 @@ function App() {
   const [products, setProducts] = useState([
     { 
       id : "1001",
-      saleBadge : false,import React from 'react';
-      import ReactDOM from 'react-dom/client';
-      
-      
-      import './index.css';
-      import App from './App';
-      // import reportWebVitals from './reportWebVitals';
+      saleBadge : false,
       
       const root = ReactDOM.createRoot(document.getElementById('root'));
       root.render(
